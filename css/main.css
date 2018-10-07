@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'pexico_micro_regularregular';
+    src:    url('./fonts/pexico_micro_regular-webfont.woff2') format('woff2'),
+            url('./fonts/pexico_micro_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fill-height-or-more {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.fill-height-or-more > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.some-area > div {
+    padding: 1rem;
+}
+.some-area > div:nth-child(1) {
+    background:white;
+}
+.some-area > div:nth-child(2) {
+    background:white;
+}
+.some-area > div:nth-child(3) {
+    background:white;
+}
+.some-area > div:nth-child(4) svg{
+    max-width: 82px;
+    display: block;
+    margin: auto;
+}
+.some-area > div:nth-child(4) {
+    background:white;
+}
+.some-area > div p {
+    font-size: 15px !important;
+    letter-spacing: -0.4px !important;
+    color: #d0d0d0 !important;
+}
+.some-area > div:nth-child(5) {
+    background: white;
+}
+.some-area > div h1, .some-area > div h2 {
+    margin: 0 0 0.2rem 0;
+}
+.some-area > div p {
+    margin: 0;
+}
+
+.form-control{
+    border-radius: 1px !important;
+    border-color: transparent !important;
+    background-color: #f0f0f0 !important;
+    font-size: 10px !important;
+    letter-spacing: -0.4px !important;
+    color: #747474 !important;
+    text-transform: uppercase;
+}
+input{
+    margin-bottom: 10px !important;
+    line-height: 1.5 !important;
+}
+input::placeholder {
+    color: #d0d0d0 !important;
+}
+
+.btn-primary {
+    font-size: 15px !important;
+    letter-spacing: -0.4px !important;
+    color: #d0d0d0!important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.btn-primary:active {
+    border-color: transparent !important;
+}
+html, body {
+    height: 100%;
+    text-align: center;
+    font-family: "pexico_micro_regularregular" !important;
+}
